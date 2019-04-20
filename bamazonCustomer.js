@@ -64,8 +64,8 @@ function promptPurchase() {
 			} else {
 				var productData = data[0];
 
-				console.log('productData = ' + JSON.stringify(productData));
-				console.log('productData.stock_quantity = ' + productData.stock_quantity);
+				//console.log('productData = ' + JSON.stringify(productData));
+				//console.log('productData.stock_quantity = ' + productData.stock_quantity);
 
 				// If the quantity requested by the user is in stock
 				if (quantity <= productData.stock_quantity) {
